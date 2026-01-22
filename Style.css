@@ -1,0 +1,343 @@
+/* ============================================================
+   WEBSITE STYLESHEET — READ FIRST
+
+   This file controls the look of your ENTIRE website.
+   All pages (index, about, gallery, contact) use this file.
+
+   ✔ You ARE expected to edit this file in Lesson 5.5
+   ✔ Change values (fonts, colours, spacing) — not structure
+   ✔ Save often and refresh your browser to see changes
+
+   SAFE TO EDIT:
+   - font-family
+   - font-size
+   - colors (color, background-color)
+   - spacing (margin, padding)
+   - borders, border-radius, box-shadow
+   - hover effects
+
+   DO NOT EDIT (yet):
+   - layout structure rules
+   - display: flex / grid on main layout containers
+   - widths that control navigation placement
+   - class or selector names
+
+   RULES:
+   - Make ONE change at a time
+   - Refresh the browser after every change
+   - If something breaks, undo your last change
+
+   Need help?
+   Use W3Schools:
+   https://www.w3schools.com/css/
+
+   ============================================================ */
+
+   /* ==================================================
+   GLOBAL RESET + BASE
+   ================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, Times, serif, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.7;
+}
+@font-face {
+  font-family: EarthBound;
+  src: url(earthbound-onett-threed.ttf);
+}
+@font-face {
+  font-family: Saturn;
+  src: url(Saturnscript_Handwritten.ttf);
+}
+/* ==================================================
+   HEADER + TOP NAV
+   ================================================== */
+
+header {
+  background-color: #f81070;
+  color: #fff;
+  padding: 1rem;
+  font-family: EarthBound;
+}
+
+header h1 {
+  margin-bottom: 0.1rem; 
+}
+
+header p {
+  font-size: 0.5rem;
+  opacity: 1;
+}
+
+nav {
+  background-color: #8888f8;
+  padding: 0.75rem 1rem;
+  font-family: Saturn;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.25rem;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==================================================
+   MAIN CONTENT
+   ================================================== */
+
+main {
+  background-color: #fff;
+  padding: 4rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+main h2 {
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* ==================================================
+   FOOTER
+   ================================================== */
+
+footer {
+  background-color: #f81070;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: Saturn;
+}
+/* ==================================================
+   Other stuff
+   ================================================== */
+.DavidHeadChop{
+  position:relative;
+  width: 15%;
+}
+.DavidHeadChopText1{
+  position: relative;
+  top: 70%;
+}
+.DavidHeadChopText2{
+  position:relative;
+  top: 70%
+}
+.CategorySubHeader{
+  display: flex;
+  justify-content: space-around;
+}
+/* ==================================================
+   Gallery
+   ================================================== */
+.NowhereIslandsCover{
+  position:relative;
+  width: 300px;
+  height: 300px;
+}
+.NowhereIslandsEp2{
+  position: relative;
+  display:flex; 
+}
+.GameOfAllTime{
+  position: relative;
+  width:640px;
+  height:360px;
+}
+.GeddanVideo{
+  position:relative;
+  width: 360px;
+  height: 640px;
+}
+.KiryuCrying{
+  position:relative;
+  width:600px;
+
+  height:300px;
+}
+/* ==================================================
+   Shapes
+   ================================================== */
+.rectangleHomePage1{
+  position:relative;
+  width: 900px;
+  height: 400px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+
+}
+.rectangleAbout1{
+  position:relative;
+  width: 900px;
+  height: 300px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleContact1{
+  position:relative;
+  width: 900px;
+  height: 300px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleSubHeader{
+  position:relative;
+  width: 900px;
+  height: 100px;
+  background-color:#fff;
+  border: 8px solid #8888f8;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleGames1{
+  position:relative;
+  width: 900px;
+  height: 350px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleRoblox1{
+  position:relative;
+  width: 900px;
+  height: 270px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleRoblox2{
+  position:relative;
+  width: 900px;
+  height: 250px;
+  background-color:#fff;
+  border: 8px solid #8888f8;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectanglePeople1{
+  position:relative;
+  width: 900px;
+  height: 250px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectanglePeople2{
+  position:relative;
+  width: 900px;
+  height: 330px;
+  background-color:#fff;
+  border: 8px solid #8888f8;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleCharacters1{
+  position:relative;
+  width: 900px;
+  height: 600px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleEvents1{
+  position:relative;
+  width: 900px;
+  height: 280px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleOthers1{
+  position:relative;
+  width: 900px;
+  height: 280px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.rectangleGallery{
+  position:relative;
+  width: 900px;
+  height: 2200px;
+  background-color:#fff;
+  border: 8px solid #f81070;
+  border-radius: 3%;
+  z-index: 1;
+  padding-left:30px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+/* ==================================================
+   STUDENT SAFE EDIT ZONE
+   ==================================================
+   ✔ Fonts
+   ✔ Colours
+   ✔ Spacing
+   ✔ Nav styling
+   ✖ Structural layout rules
+   ================================================== */
